@@ -1,0 +1,20 @@
+{
+  "name": "mediguide-bloodconnect",
+  "version": "1.0.0",
+  "description": "MediGuide BloodConnect - Real Hospital Blood Availability Platform",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "server": "node backend/src/server.js",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "reset-db": "npm --prefix backend run reset-db"
+  },
+  "keywords": [
+    "blood-donation",
+    "hospital-availability",
+    "real-data"
+  ],
+  "author": "MediGuide BloodConnect",
+  "license": "ISC"
+}
